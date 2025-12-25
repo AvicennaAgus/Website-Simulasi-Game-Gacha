@@ -5,7 +5,7 @@ const CHARACTER_DB = {
         { id: "ssr_1", name: "Fruktose Rossalinde", img: "ssr_fruktose.jpg" },
         { id: "ssr_2", name: "Orion Starforge", img: "ssr_orion.jpg" },
         { id: "ssr_3", name: "Seraphina Lumina", img: "ssr_seraphina.jpg" },
-        { id: "ssr_4", name: "Seraphina Lumina", img: "ssr_dawnspire.jpg" }
+        { id: "ssr_4", name: "Aurelia Dawnspire", img: "ssr_dawnspire.jpg" }
     ],
     "SR (4 Bintang)": [
         { id: "sr_1", name: "Draven Thunderfist", img: "sr_draven.jpg" },
@@ -174,4 +174,5 @@ function resetSimulation() {
 
 window.onload = () => {
     document.getElementById('latestRollsContainer').innerHTML = "Siap untuk Gacha!";
+
 };
